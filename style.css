@@ -1,0 +1,142 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  z-index: 10;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: underline;
+}
+ .logo img {
+  height: 50px;
+ }
+
+header {
+  display: flex;
+  place-content: center;
+  margin-top: 70px;
+}
+
+.background {
+  text-align: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1hjl4xx*_ga*MTA3OTUyMDYzNC4xNjczMzYzODYy*_ga_3LRZM6TM9L*MTY3NDgyMDMxOC4yNy4xLjE2NzQ4MjExMjUuMC4wLjA.");
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission {
+  margin-top: 270px;
+  background-color: black;
+  padding: 5px 0px;
+}
+
+.monthly-tea {
+  margin-top: 30px;
+  place-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.section img {
+  height: 200px;
+  width: 300px;
+}
+
+.section h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.test {
+  
+}
+
+.location-section {
+  display: flex;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1j8cq96*_ga*MTA3OTUyMDYzNC4xNjczMzYzODYy*_ga_3LRZM6TM9L*MTY3NTA4MTUzMi4yOS4xLjE2NzUwODE1NDkuMC4wLjA.");
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 566px;
+  opacity: 0.9;
+  padding-top: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+footer {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.copyright {
+  margin-left: 20px;
+}
